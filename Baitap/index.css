@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.radio {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+.radio input[type="radio"]{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0;
+}
+
+.radio input[type="radio"] + label{
+    position: relative;
+    padding-left: 2px;
+    
+}
+
+.radio label{
+    padding-left: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.radio br {
+    display: none;
+}
+
+.radio label:nth-child(3) {
+    clear: both;
+    
+}
+.checkbox label {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+.left_skills,
+.right_skills {
+    width: 50%;
+    float: left;
+}
+.checkbox {
+    margin-bottom: 20px;
+  }
+.checkbox label {
+    clear: both;
+}
+
+form {
+    border: 1px dashed red;
+    padding: 10px;
+    max-width: 26%;
+    height: 250px;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;    
+}
+
+button[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 200px;
+    width: 80%;
+    background-color:orange;
+  }
